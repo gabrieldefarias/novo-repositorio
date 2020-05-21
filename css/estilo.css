@@ -45,7 +45,7 @@ p{
     font-family: arial;
     font-size: 10pt;
     text-decoration: none;
-    color: #800;
+    color: rgb(0, 0, 0);
     background-color: #ff8;
     width: 100%;
     display: inline-block;
@@ -56,5 +56,30 @@ p{
     color: white;
 }
 #estrutura #menu a.atual{ /*item do menu selecionado*/
-    background-color: #ff9900;
+    background-color: #c97a05;
 }
+#estrutura #conteudo h2{
+    font-family: arial;
+    font-size: 14pt;
+    padding: 10px;
+}
+/*formatação para o texto*/
+#estrutura #conteudo .textohome{
+    font-family: 'Times New Roman';
+    font-size: 14pt;
+    line-height: 14pt;
+    padding-left: 20px;
+}
+#rodape {
+    padding: 20px 0px; font-family: arial; background-color: #800;
+    color: #efff; height: 60px; bottom: 0;
+    width: 100%; text-align: center;
+}
+#estrutura #conteudo .imghome img{
+    width: 349px;
+    height: 300px;
+    margin: 10px;
+}
+#estrutura #conteudo .imghome{text-align: center;}
+/*forçanodo o rodapépara baixo*/
+.abaixar{clear: both;}
