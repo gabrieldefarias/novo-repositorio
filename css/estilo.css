@@ -29,5 +29,32 @@ p{
     font-size: 11pt;
 }
 #estrutura #menu ul{
-    padding: opx; /*espaçamento*/
+    padding: 0px; /*espaçamento*/
+}
+#estrutura #menu li{
+    /*retirar as marcas do marcador*/
+    list-style: none;
+    /*alinhar os links na horizontal*/
+    display: inline-block;
+    width: 224px;
+    text-align: center;
+    padding: 0px 0px;
+}
+#estrutura #menu a{
+    /*a herf*/
+    font-family: arial;
+    font-size: 10pt;
+    text-decoration: none;
+    color: #800;
+    background-color: #ff8;
+    width: 100%;
+    display: inline-block;
+    padding: 10px 0px;
+}
+#estrutura #menu a:hover{ /*Só aparecerá quando o usuário passar o mouse no elemento*/
+    background-color: #800;
+    color: white;
+}
+#estrutura #menu a.atual{ /*item do menu selecionado*/
+    background-color: #ff9900;
 }
