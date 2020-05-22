@@ -52,11 +52,11 @@ p{
     padding: 10px 0px;
 }
 #estrutura #menu a:hover{ /*Só aparecerá quando o usuário passar o mouse no elemento*/
-    background-color: #800;
+    background-color: rgb(240, 103, 12);
     color: white;
 }
 #estrutura #menu a.atual{ /*item do menu selecionado*/
-    background-color: #c97a05;
+    background-color: #e4490b;
 }
 #estrutura #conteudo h2{
     font-family: arial;
@@ -81,5 +81,5 @@ p{
     margin: 10px;
 }
 #estrutura #conteudo .imghome{text-align: center;}
-/*forçanodo o rodapépara baixo*/
+/*forçanodo o rodapé para baixo*/
 .abaixar{clear: both;}
